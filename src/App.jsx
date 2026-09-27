@@ -5,6 +5,7 @@ import Hero from './Portfolio/Hero';
 import About from './Portfolio/About';
 import Projects from './Portfolio/Projects';
 import Contact from './Portfolio/Contact';
+import Rating from './Portfolio/Rating';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <About/>
     <Projects/>
     <Contact/>
+    <Rating/>
     </>
   );
 }

@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Contact() {
     return (
         <Box id="Contact" sx={{ mt: 10, ml: 2, mr: 2, scrollMarginTop: "80px", textAlign: "center", width: '100%' }}>
-            <Typography variant="h4" sx={{ mb: 2, textAlign: "center" }}>Contact</Typography>
+            <Typography variant="h4" sx={{ mb: 2, textAlign: "center" }}>𝘾𝙤𝙣𝙩𝙖𝙘𝙩</Typography>
             <Stack direction={{ xs: 'column', sm: 'row' }} sx={{ spacing: 3, justifyContent: "center", alignItems: "center", width: '100%' }}>
                 <Box sx={{ alignItems: "center", display: "flex" , flexDirection: "row", gap: 3, justifyContent: "center", textAlign: "center" ,mt:6}}>
                 <Link href="https://www.linkedin.com/in/vishnu-bangaru-63b1a0410" color="inherit" underline="none" sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>

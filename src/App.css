@@ -1,4 +1,4 @@
-/*.counter {
+.counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,30 @@
     right: 0;
     border-right-color: var(--border);
   }
-}*/
+}
+@media (max-width: 600px) {
+  #center {
+    padding: 24px 16px;
+    gap: 16px;
+  }
+
+  .hero .base {
+    width: min(170px, 45vw);
+  }
+
+  #next-steps > div {
+    padding: 20px 16px;
+  }
+
+  #next-steps ul {
+    gap: 8px;
+  }
+
+  #next-steps ul li {
+    flex: 1 1 100%;
+  }
+
+  #spacer {
+    height: 32px;
+  }
+}

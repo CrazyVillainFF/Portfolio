@@ -1,4 +1,4 @@
-.counter {
+/*.counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -206,5 +206,139 @@
 
   #spacer {
     height: 32px;
+  }
+}*/
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* HERO */
+.hero {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 80px 8%;
+  gap: 40px;
+}
+
+.hero-image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+/* ABOUT */
+.about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+
+  padding: 60px 8%;
+}
+
+.about-card {
+  width: 30%;
+  min-height: 150px;
+  padding: 24px;
+}
+
+
+/* PROJECTS */
+.projects {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding: 60px 6%;
+}
+
+.project-text {
+  line-height: 1.8;
+}
+
+
+/* CONTACT */
+.contact {
+  width: 100%;
+  padding: 60px 6%;
+  text-align: center;
+}
+
+
+/* RATING */
+.rating {
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+
+    min-height: auto;
+
+    padding: 100px 20px 50px;
+
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 180px;
+    height: 240px;
+  }
+
+
+  .about {
+    flex-direction: column;
+
+    padding: 40px 20px;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+
+
+  .projects {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .project-text {
+    line-height: 1.7;
+  }
+
+
+  .contact {
+    padding: 40px 20px;
   }
 }
